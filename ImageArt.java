@@ -77,9 +77,6 @@ public class ImageArt extends JFrame implements ActionListener {
         top.add(selectImg);
         alert = new JLabel("");
         top.add(alert);
-        // img = null;
-        // f = null;
-        //Contents of Center Panel
         filters = new JLabel("Choose a Filter ");
         center.add(filters);
         setSize(605, 700);
@@ -148,9 +145,6 @@ public class ImageArt extends JFrame implements ActionListener {
         filterGroup.add(fil14);
         filterGroup.add(fil15);
         filterGroup.add(fil16);
-        //filterGroup.add(fil1);
-
-        //Contents of Bottom Panel
         otitle = new JLabel("Output");
         bottom.add(otitle);
         optf = new JTextField(20);
@@ -164,7 +158,6 @@ public class ImageArt extends JFrame implements ActionListener {
         try {
             fd = new FileDialog(this, "Choose Input", FileDialog.LOAD);
             fd.setVisible(false);
-            //System.out.println(fd.getDirectory());
             optf.setText(fd.getDirectory());
         } catch (Exception e) {
         }
@@ -173,8 +166,6 @@ public class ImageArt extends JFrame implements ActionListener {
             sd.setVisible(false);
         } catch (Exception e) {
         }
-        //save = new JButton("Save");
-        //bottom.add(save);
         save.addActionListener(this);
         save.setPreferredSize(new Dimension(80, 30));
         bottom.add(sd);
@@ -190,7 +181,33 @@ public class ImageArt extends JFrame implements ActionListener {
             System.out.println(e);
         }
     }
-
+########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+##############################################################################
+  
+  
     public void actionPerformed(ActionEvent ae) {
         if (ae.getActionCommand().equals("Select")) {
             inpCh = new JFileChooser();
@@ -224,99 +241,37 @@ public class ImageArt extends JFrame implements ActionListener {
             sd.setVisible(true);
             getImage();
         } else if (ae.getActionCommand().equals("Save")) {
-
-            // getImage();
         }
     }
 
     public void starter() {
-        //System.out.println("Select your Option:");
         System.out.println(filterGroup.getSelection().getActionCommand());
         int op = Integer.parseInt(filterGroup.getSelection().getActionCommand());
-        // int op = s.nextInt();
-        switch (op) {
-            case 0:
-                selected(0);
-                output();
-                break;
-            case 1:
-                selected(1);
-                output();
-                break;
-            case 2:
-                selected(2);
-                output();
-                break;
-            case 3:
-                selected(3);
-                output();
-                break;
-            case 4:
-                selected(4);
-                output();
-                break;
-            case 5:
-                selected(5);
-                output();
-                break;
-            case 6:
-                selected(6);
-                output();
-                break;
-            case 7:
-                selected(7);
-                output();
-                break;
-            case 8:
-                selected(8);
-                output();
-                break;
-            case 9:
-                selected(0);
-                selected(1);
-                selected(2);
-                output();
-                break;
-            case 10:
-                selected(0);
-                selected(1);
-                selected(3);
-                output();
-                break;
-            case 11:
-                selected(0);
-                selected(1);
-                selected(4);
-                output();
-                break;
-            case 12:
-                selected(0);
-                selected(1);
-                selected(5);
-                output();
-                break;
-            case 13:
-                selected(0);
-                selected(1);
-                selected(6);
-                output();
-                break;
-            case 14:
-                selected(0);
-                selected(1);
-                selected(7);
-                output();
-                break;
-            case 15:
-                selected(0);
-                selected(1);
-                selected(8);
-                output();
-                break;
-            default:
-                System.out.println("Select Options from 0 - 15");
-                break;
-        }
+      ########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+##############################################################################
 
     }
 
@@ -330,43 +285,69 @@ public class ImageArt extends JFrame implements ActionListener {
 
     public void selected(int op) {
         int p;
-        for (int i = 0; i < width; i++) {
-            for (int j = 0; j < height; j++) {
-                p = img.getRGB(i, j);
-                r = (p >> 16) & 0xff;
-                g = (p >> 8) & 0xff;
-                b = p & 0xff;
-
-                switch (op) {
-                    case 0:
-                        turnBW(i, j);
-                        break;
-                    case 1:
-                        enhance(i, j);
-                        break;
-                    case 2:
-                        turnRed(i, j);
-                        break;
-                    case 3:
-                        turnGreen(i, j);
-                        break;
-                    case 4:
-                        turnBlue(i, j);
-                        break;
-                    case 5:
-                        turnYellow(i, j);
-                        break;
-                    case 6:
-                        turnPink(i, j);
-                        break;
-                    case 7:
-                        turnSky(i, j);
-                        break;
-                    case 8:
-                        turnTemp(i, j);
-                        break;
-                    default:
-
+     
+     
+     
+     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+     $$$$$$$$$$$$$$$$$$$$$$$ IMAGE PROCESSING ALGORITHM  $$$$$$$$$$$$$$$$$$$$$$$$$$
+     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+      
+      
+      
+      
+      
+      
+      
+       ########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+#########################################################################
+##########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+##############################################################################
                         break;
 
                 }
@@ -432,40 +413,60 @@ public class ImageArt extends JFrame implements ActionListener {
         int rgb = conCol.getRGB();
         img.setRGB(i, j, rgb);
     }
+##########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+##############################################################################
 
-    public void blueMaker() {
-        int diff = 0;
-        diff = 255 - b;
-        if (b <= 255 && diff != 0) {
-            if (diff >= 10) {
-                b += 10;
-            } else if (diff >= 4) {
-                b += 4;
-            }
-        }
-    }
-
-    public void greenMaker() {
-        int diff = 0;
-        diff = 255 - g;
-        if (g <= 255 && diff != 0) {
-            if (diff >= 10) {
-                g += 10;
-            } else if (diff >= 4) {
-                g += 4;
-            }
-        }
-    }
-
-    public void redMaker() {
-        int diff = 0;
-        diff = 255 - r;
-        if (r <= 255 && diff != 0) {
-            if (diff >= 10) {
-                r += 10;
-            } else if (diff >= 4) {
-                r += 4;
-            }
-        }
+     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+     $$$$$$$$$$$$$$$$$$$$$$$ IMAGE PROCESSING ALGORITHM  $$$$$$$$$$$$$$$$$$$$$$$$$$
+     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+     
+     ##########################################################################
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+	Logic is Hidden for Security purposes
+	
+	
+	
+	
+##############################################################################
     }
 }
